@@ -4,7 +4,7 @@ const fs = require("fs")
 
 //Get current date and Time.
 const now = new Date();
-const value = date.format(now, 'DD-MM-YYYY,HH-mm-ss')
+const value = date.format(now, 'DD-MM-YYYY,HH:mm:ss')
 
 
 //Make a text file with current date and time.
